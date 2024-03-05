@@ -38,4 +38,4 @@ class Resolver(private val players: List<Player>) : IResolver {
 
 }
 
-}
+}\
