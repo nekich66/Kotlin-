@@ -7,7 +7,7 @@ object Task2 {
     val parts =
         scanner.nextLine()
             .split("")
-            .map { it toIntOrNull () ?: 0 }
+            .map { it.toIntOrNull () ?: 0 }
     val tariff =
         Tariff(
             eatCount = parts[0],
